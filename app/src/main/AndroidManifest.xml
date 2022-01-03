@@ -10,10 +10,127 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShoppingApp">
         <activity
-            android:name=".FourthActivity_Cloth_one"
+            android:name=".Stationery4"
             android:exported="true" />
         <activity
-            android:name=".ThirdActivity_Cloth_one"
+            android:name=".Stationery3"
+            android:exported="true" />
+        <activity
+            android:name=".Stationery2"
+            android:exported="true" />
+        <activity
+            android:name=".Stationery1"
+            android:exported="true" />
+        <activity
+            android:name=".ShortSleeve4"
+            android:exported="true" />
+        <activity
+            android:name=".ShortSleeve3"
+            android:exported="true" />
+        <activity
+            android:name=".ShortSleeve2"
+            android:exported="true" />
+        <activity
+            android:name=".ShortSleeve1"
+            android:exported="true" />
+        <activity
+            android:name=".pants4"
+            android:exported="true" />
+        <activity
+            android:name=".pants3"
+            android:exported="true" />
+        <activity
+            android:name=".pants2"
+            android:exported="true" />
+        <activity
+            android:name=".pants1"
+            android:exported="true" />
+        <activity
+            android:name=".LongSleeve4"
+            android:exported="true" />
+        <activity
+            android:name=".LongSleeve3"
+            android:exported="true" />
+        <activity
+            android:name=".LongSleeve2"
+            android:exported="true" />
+        <activity
+            android:name=".LongSleeve1"
+            android:exported="true" />
+        <activity
+            android:name=".Houseware4"
+            android:exported="true" />
+        <activity
+            android:name=".Houseware3"
+            android:exported="true" />
+        <activity
+            android:name=".Houseware2"
+            android:exported="true" />
+        <activity
+            android:name=".Houseware1"
+            android:exported="true" />
+        <activity
+            android:name=".Comestic4"
+            android:exported="true" />
+        <activity
+            android:name=".Comestic3"
+            android:exported="true" />
+        <activity
+            android:name=".Comestic2"
+            android:exported="true" />
+        <activity
+            android:name=".Comestic1"
+            android:exported="true" />
+        <activity
+            android:name=".Bag4"
+            android:exported="true" />
+        <activity
+            android:name=".Bag3"
+            android:exported="true" />
+        <activity
+            android:name=".Bag2"
+            android:exported="true" />
+        <activity
+            android:name=".Coat4"
+            android:exported="true" />
+        <activity
+            android:name=".Coat3"
+            android:exported="true" />
+        <activity
+            android:name=".Coat2"
+            android:exported="true" />
+        <activity
+            android:name=".Coat1"
+            android:exported="true" />
+        <activity
+            android:name=".SecondDaily"
+            android:exported="true" />
+        <activity
+            android:name=".Stationery"
+            android:exported="true" />
+        <activity
+            android:name=".Houseware"
+            android:exported="true" />
+        <activity
+            android:name=".Cosmetic"
+            android:exported="true" />
+        <activity
+            android:name=".Bag"
+            android:exported="true" />
+        <activity
+            android:name=".pants"
+            android:exported="true" />
+        <activity
+            android:name=".Coat"
+            android:exported="true" />
+        <activity
+            android:name=".ShortSleeve"
+            android:exported="true" />
+        <activity
+            android:name=".LongSleeve"
+            android:exported="true" />
+        <activity
+            android:name=".FourthActivity_Cloth_one"
             android:exported="true" />
         <activity
             android:name=".SecondActivity_Cloth"

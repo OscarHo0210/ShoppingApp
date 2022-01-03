@@ -12,7 +12,7 @@ class SecondActivity_Cloth : AppCompatActivity() {
 
         val btn_tshirt = findViewById<Button>(R.id.btn_tshirt)
         btn_tshirt.setOnClickListener {
-            startActivity(Intent(this,ThirdActivity_Cloth_one::class.java))
+            startActivity(Intent(this,ShortSleeve::class.java))
         }
 
         val btn_shirt = findViewById<Button>(R.id.btn_shirt)

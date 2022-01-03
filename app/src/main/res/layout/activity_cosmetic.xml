@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cosmetic">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        tools:context=".ShortSleeve"
+        tools:layout_editor_absoluteX="-31dp"
+        tools:layout_editor_absoluteY="-109dp">
+
+        <ImageView
+            android:id="@+id/back6"
+            android:layout_width="83dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_choice_two5"
+            app:srcCompat="@drawable/s__3817886" />
+
+        <Button
+            android:id="@+id/btn_choice_two6"
+            android:layout_width="170dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="24dp"
+            android:background="#ECECEC"
+            android:text="德國Bombastus 阿拉美塔舒眼化妝水 6x10ml"
+            android:textSize="12sp"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <Button
+            android:id="@+id/btn_choice_two5"
+            android:layout_width="169dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="36dp"
+            android:background="#ECECEC"
+            android:text="德國Bombastus 鼠尾草乳膏 20ml / 75ml"
+            android:textSize="12sp"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <Button
+            android:id="@+id/btn_choice_two3"
+            android:layout_width="194dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="8dp"
+            android:background="#ECECEC"
+            android:gravity="center"
+            android:text="法國compagnie de provence 好用肥皂: 紅茶味液體皂及護手霜組合包"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <Button
+            android:id="@+id/btn_choice_two2"
+            android:layout_width="169dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:background="#ECECEC"
+            android:text="德國Bombastus 鼠尾草花草本牙膏"
+            android:textSize="12sp"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="173dp"
+            android:layout_height="167dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dgs" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="201dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/fsgs" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="161dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="48dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_choice_two2"
+            app:srcCompat="@drawable/vxcds" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="167dp"
+            android:layout_height="166dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_choice_two3"
+            app:srcCompat="@drawable/dsgb" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

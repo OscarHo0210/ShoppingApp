@@ -8,18 +8,48 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="72dp"
+        android:layout_width="416dp"
+        android:layout_height="738dp"
+        android:layout_marginTop="4dp"
         android:background="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="42dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="372dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/s__3817879" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="42dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="232dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/s__3817878" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="42dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="372dp"
+            android:layout_marginEnd="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/s__3817880" />
 
         <Button
             android:id="@+id/btn_choice_three"
             android:layout_width="117dp"
             android:layout_height="116dp"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="24dp"
             android:background="#AAAAAA"
             android:gravity="center"
             android:shape="oval"
@@ -27,7 +57,7 @@
             android:textColor="#000000"
             android:textSize="16sp"
             app:layout_constraintEnd_toStartOf="@+id/btn_choice_four"
-            app:layout_constraintHorizontal_bias="0.733"
+            app:layout_constraintHorizontal_bias="0.779"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_grocery" />
 
@@ -35,8 +65,8 @@
             android:id="@+id/btn_choice_four"
             android:layout_width="117dp"
             android:layout_height="116dp"
-            android:layout_marginTop="28dp"
-            android:layout_marginEnd="72dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="68dp"
             android:gravity="center"
             android:text="品牌衣物"
             android:textColor="#000000"
@@ -49,48 +79,37 @@
             android:id="@+id/btn_choice_two"
             android:layout_width="117dp"
             android:layout_height="116dp"
-            android:layout_marginTop="35dp"
-            android:layout_marginEnd="72dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="68dp"
             android:background="#AAAAAA"
             android:gravity="center"
             android:text="3C產品"
             android:textColor="#000000"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView14" />
 
         <Button
             android:id="@+id/btn_grocery"
             android:layout_width="117dp"
             android:layout_height="116dp"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="12dp"
             android:background="#8FBC8F"
             android:gravity="center"
             android:text="生活用品"
             android:textColor="#000000"
             android:textSize="16sp"
             app:layout_constraintEnd_toStartOf="@+id/btn_choice_two"
-            app:layout_constraintHorizontal_bias="0.733"
+            app:layout_constraintHorizontal_bias="0.779"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_title" />
-
-        <TextView
-            android:id="@+id/tv_title"
-            android:layout_width="315dp"
-            android:layout_height="34dp"
-            android:layout_marginTop="8dp"
-            android:text="代購商品資訊查詢平台"
-            android:textSize="30sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pic_cartoon_lines" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView14" />
 
         <ImageButton
             android:id="@+id/pic_login"
             android:layout_width="55dp"
             android:layout_height="58dp"
-            android:layout_marginStart="60dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="80dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_choice_three"
             app:srcCompat="@drawable/user_icon"
@@ -100,8 +119,8 @@
             android:id="@+id/btn_login"
             android:layout_width="70dp"
             android:layout_height="61dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="96dp"
             android:text="線上客服"
             android:textSize="14sp"
             app:layout_constraintStart_toEndOf="@+id/pic_login"
@@ -111,8 +130,8 @@
             android:id="@+id/pic_cartoon_people"
             android:layout_width="160dp"
             android:layout_height="170dp"
-            android:layout_marginTop="44dp"
-            android:layout_marginEnd="28dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="24dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_choice_four"
             app:srcCompat="@drawable/shopping" />
@@ -126,6 +145,47 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/pic" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="399dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="576dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/s__3817849" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="360dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="64dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.686"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/s" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="257dp"
+            android:layout_height="89dp"
+            android:layout_marginTop="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/s__3817852" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="42dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/s__3817876" />
 
         android:background="#8FBC8F"
 

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondDaily">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        tools:context=".SecondActivity_Cloth"
+        tools:layout_editor_absoluteX="-75dp"
+        tools:layout_editor_absoluteY="67dp">
+
+
+        <ImageView
+            android:id="@+id/back2"
+            android:layout_width="83dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.048"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_pants"
+            app:srcCompat="@drawable/s__3817886" />
+
+        <Button
+            android:id="@+id/btn_shirt"
+            android:layout_width="102dp"
+            android:layout_height="82dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="32dp"
+            android:background="#A3937C"
+            android:gravity="center"
+            android:text="美容保養"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_tshirt" />
+
+        <Button
+            android:id="@+id/btn_tshirt"
+            android:layout_width="102dp"
+            android:layout_height="82dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="20dp"
+            android:background="#CDB28A"
+            android:gravity="center"
+            android:text="品牌包包"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView19"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btn_shorts"
+            android:layout_width="102dp"
+            android:layout_height="82dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="48dp"
+            android:background="#988F81"
+            android:gravity="center"
+            android:text="居家用品"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_shirt" />
+
+        <Button
+            android:id="@+id/btn_pants"
+            android:layout_width="102dp"
+            android:layout_height="82dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="72dp"
+            android:background="#83663C"
+            android:gravity="center"
+            android:text="文具用品"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_shorts" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="146dp"
+            android:layout_height="111dp"
+            android:layout_marginEnd="56dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView19"
+            app:srcCompat="@drawable/dzf" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="151dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7"
+            app:srcCompat="@drawable/sfas" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="156dp"
+            android:layout_height="154dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="44dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8"
+            app:srcCompat="@drawable/sdsa_" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="164dp"
+            android:layout_height="158dp"
+            android:layout_marginEnd="44dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9"
+            app:srcCompat="@drawable/feff" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="275dp"
+            android:layout_height="140dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/s__3817884" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
