@@ -4,88 +4,88 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ThirdActivity_3C_one">
+    tools:context=".ThirdActivity_3C_two">
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/imageView11"
         android:layout_width="175dp"
         android:layout_height="175dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="70dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/phonecase_two" />
+        app:srcCompat="@drawable/powerbank_two" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/button13"
         android:layout_width="175dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="拿鐵小熊"
+        android:text="行充 1"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/imageView12"
         android:layout_width="175dp"
         android:layout_height="175dp"
         android:layout_marginTop="70dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/phonecase_three" />
+        app:srcCompat="@drawable/powerbank_three" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/button14"
         android:layout_width="175dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:text="蔬菜"
+        android:text="行充 2"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/imageView13"
         android:layout_width="175dp"
         android:layout_height="175dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/button11"
+        app:layout_constraintBottom_toTopOf="@+id/button15"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/phonecase_four" />
+        app:srcCompat="@drawable/powerbank_four" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/button15"
         android:layout_width="175dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="70dp"
-        android:text="貝果"
-        android:textSize="24sp"
+        android:text="行充 3"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/imageView14"
         android:layout_width="175dp"
         android:layout_height="175dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintBottom_toTopOf="@+id/button16"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/phonecase_five" />
+        app:srcCompat="@drawable/powerbank_five" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/button16"
         android:layout_width="175dp"
         android:layout_height="50dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="70dp"
-        android:text="藍色小熊"
+        android:text="行充 4"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

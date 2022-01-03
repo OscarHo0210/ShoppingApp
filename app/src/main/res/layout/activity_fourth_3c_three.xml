@@ -4,21 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FourthActivity_3C_one">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="354dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="28dp"
-        android:text="代購資訊"
-        android:textAlignment="center"
-        android:textSize="34sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    tools:context=".FourthActivity_3C_three">
 
     <TextView
         android:id="@+id/textView2"
@@ -26,7 +12,7 @@
         android:layout_height="70dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="44dp"
-        android:text="名稱: 韓國Byemypie-Latte bear \n           拿鐵小熊手機殼"
+        android:text="名稱: 韓國Byemypie-bagel morning\n           貝果手機殼"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -52,4 +38,17 @@
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="354dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="60dp"
+        android:text="代購資訊"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

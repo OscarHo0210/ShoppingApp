@@ -4,32 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FourthActivity_3C_one">
+    tools:context=".FourthActivity_3C_two">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="354dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="28dp"
-        android:text="代購資訊"
-        android:textAlignment="center"
-        android:textSize="34sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView4"
         android:layout_width="320dp"
         android:layout_height="70dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="44dp"
-        android:text="名稱: 韓國Byemypie-Latte bear \n           拿鐵小熊手機殼"
+        android:layout_marginTop="20dp"
+        android:text="聯絡方式: \n ig: soeurri"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/textView3"
@@ -43,13 +29,26 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView"
+        android:layout_width="354dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="60dp"
+        android:text="代購資訊"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="320dp"
         android:layout_height="70dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="20dp"
-        android:text="聯絡方式: \n ig: soeurri"
+        android:layout_marginTop="44dp"
+        android:text="名稱: 韓國Byemypie-veggie party\n          蔬菜手機殼"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

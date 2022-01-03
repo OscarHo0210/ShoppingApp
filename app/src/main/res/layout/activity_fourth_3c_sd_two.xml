@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FourthActivity_3C_one">
+    tools:context=".FourthActivity_3C_sd_two">
 
     <TextView
         android:id="@+id/textView"
@@ -12,11 +12,9 @@
         android:layout_height="53dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="60dp"
-        android:layout_marginEnd="28dp"
         android:text="代購資訊"
         android:textAlignment="center"
         android:textSize="34sp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -26,10 +24,21 @@
         android:layout_height="70dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="44dp"
-        android:text="名稱: 韓國Byemypie-Latte bear \n           拿鐵小熊手機殼"
+        android:text="名稱: MagSafe行動電源"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:text="聯絡方式: \n 網站: https://shopee.tw/Apple%E5%8E%9F%E5%BB%A0-MagSafe-%E5%A4%96%E6%8E%A5%E5%BC%8F%E9%9B%BB%E6%B1%A0-%E8%A1%8C%E5%8B%95%E9%9B%BB%E6%BA%90-%E7%A3%81%E5%90%B8%E9%9B%BB%E6%BA%90-MagSafe%E8%A1%8C%E5%8B%95%E9%9B%BB%E6%BA%90-%E8%98%8B%E6%9E%9C%E8%A1%8C%E5%8B%95%E5%85%85-Apple-AP49-i.1982863.12220157820?sp_atk=089de14f-374f-4d22-9b8a-e50a2166f404"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/textView3"
@@ -37,19 +46,9 @@
         android:layout_height="70dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="20dp"
-        android:text="價格: 650"
+        android:text="價格: 2,989"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="320dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="20dp"
-        android:text="聯絡方式: \n ig: soeurri"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

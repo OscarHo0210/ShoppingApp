@@ -4,7 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FourthActivity_3C_one">
+    tools:context=".FourthActivity_3C_sd_three">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:text="聯絡方式: \n 網站: https://shopee.tw/ADH-20000%E8%A1%8C%E5%8B%95%E9%9B%BB%E6%BA%90-%E7%8F%BE%E8%B2%A8-%E9%81%A9%E7%94%A8%E8%98%8B%E6%9E%9C11-8-X-%E5%AE%89%E5%8D%93-Type-C-%E5%A4%A7%E5%AE%B9%E9%87%8F-%E6%89%8B%E9%9B%BB%E7%AD%92-%E8%BF%B7%E4%BD%A0-%E5%BF%AB%E5%85%85-%E9%A6%AC%E5%8D%A1%E9%BE%8D%E8%89%B2%E7%B3%BB%E8%A1%8C%E5%8B%95%E5%85%85-i.16776486.1437746092?sp_atk=23d12570-1a15-4e07-b252-3a07d9bca794"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/textView"
@@ -12,24 +23,11 @@
         android:layout_height="53dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="60dp"
-        android:layout_marginEnd="28dp"
         android:text="代購資訊"
         android:textAlignment="center"
         android:textSize="34sp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="320dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="44dp"
-        android:text="名稱: 韓國Byemypie-Latte bear \n           拿鐵小熊手機殼"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView3"
@@ -37,19 +35,20 @@
         android:layout_height="70dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="20dp"
-        android:text="價格: 650"
+        android:text="價格: 259"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView2"
         android:layout_width="320dp"
         android:layout_height="70dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="20dp"
-        android:text="聯絡方式: \n ig: soeurri"
+        android:layout_marginTop="44dp"
+        android:text="名稱: ADH-20000行動電源"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
