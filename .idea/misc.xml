@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/layout/activity_chat_app.xml" value="0.18072916666666666" />
+        <entry key="..\:/MyKotlin/MyApplication/ShoppingApp/app/src/main/res/layout/activity_fourth_3c_one.xml" value="0.24947916666666667" />
+        <entry key="..\:/MyKotlin/MyApplication/ShoppingApp/app/src/main/res/layout/activity_fourth_cloth_one.xml" value="0.24947916666666667" />
+        <entry key="..\:/MyKotlin/MyApplication/ShoppingApp/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/MyKotlin/MyApplication/ShoppingApp/app/src/main/res/layout/activity_second_3c.xml" value="0.23489583333333333" />
+        <entry key="..\:/MyKotlin/MyApplication/ShoppingApp/app/src/main/res/layout/activity_second_cloth.xml" value="0.24947916666666667" />
+        <entry key="..\:/MyKotlin/MyApplication/ShoppingApp/app/src/main/res/layout/activity_third_3c_one.xml" value="0.24947916666666667" />
+        <entry key="..\:/MyKotlin/MyApplication/ShoppingApp/app/src/main/res/layout/activity_third_cloth_one.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/layout/activity_fourth_cloth_one.xml" value="0.25462962962962965" />
         <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/layout/activity_main.xml" value="0.25462962962962965" />
