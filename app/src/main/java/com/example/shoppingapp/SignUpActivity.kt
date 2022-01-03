@@ -49,6 +49,7 @@ class SignUpActivity : AppCompatActivity() {
                     addUserToDatabase(name,email,mAuth.currentUser?.uid!!)
 
                     val intent = Intent(this, MainActivity::class.java)
+                    finish()
                     startActivity(intent)
                 } else {
                     Toast.makeText(this, "密碼請大於6碼", Toast.LENGTH_SHORT).show()
