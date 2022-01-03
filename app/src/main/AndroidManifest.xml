@@ -19,6 +19,15 @@
             android:name=".chat.ChatApp"
             android:exported="true" />
         <activity
+            android:name=".FourthActivity_3C_one"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdActivity_3C_one"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity_3C"
+            android:exported="false" />
+        <activity
             android:name=".FourthActivity_Cloth_one"
             android:exported="true" />
         <activity
