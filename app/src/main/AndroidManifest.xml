@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShoppingApp">
         <activity
+            android:name=".SignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".chat.ChatApp"
+            android:exported="true" />
+        <activity
             android:name=".FourthActivity_Cloth_one"
             android:exported="true" />
         <activity

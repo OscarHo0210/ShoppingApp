@@ -89,8 +89,8 @@
             android:id="@+id/pic_login"
             android:layout_width="55dp"
             android:layout_height="58dp"
-            android:layout_marginStart="60dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="64dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_choice_three"
             app:srcCompat="@drawable/user_icon"
@@ -101,7 +101,7 @@
             android:layout_width="70dp"
             android:layout_height="61dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="64dp"
             android:text="線上客服"
             android:textSize="14sp"
             app:layout_constraintStart_toEndOf="@+id/pic_login"
@@ -130,5 +130,25 @@
         android:background="#8FBC8F"
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btn_homeSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="22dp"
+        android:text="註冊"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_homeLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="9dp"
+        android:text="登入"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
