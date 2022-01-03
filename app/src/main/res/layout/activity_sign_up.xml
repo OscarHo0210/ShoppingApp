@@ -26,7 +26,8 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="20dp"
         android:hint="請輸入姓名"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:inputType="textNoSuggestions"/>
 
     <EditText
         android:id="@+id/edt_email"
@@ -38,7 +39,8 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="20dp"
         android:hint="請輸入Email帳號"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:inputType="textNoSuggestions"/>
 
     <EditText
         android:id="@+id/edt_password"
@@ -50,9 +52,11 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="20dp"
         android:hint="請輸入密碼"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:inputType="textNoSuggestions"/>
 
     <Button
+        android:id="@+id/btn_signUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/edt_password"
