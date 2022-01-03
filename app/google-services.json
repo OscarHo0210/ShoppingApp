@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "388856806211",
+    "project_id": "chatsystem-d78e3",
+    "storage_bucket": "chatsystem-d78e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388856806211:android:114866cd641309c8438df6",
+        "android_client_info": {
+          "package_name": "com.example.shoppingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388856806211-1504fu202dgk1dtk5ecqgq0kmeruuqff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiHK3nVpX9d_uOVcx1TxZuBva7DlO8FNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388856806211-1504fu202dgk1dtk5ecqgq0kmeruuqff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
