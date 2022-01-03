@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         val btn_electricity = findViewById<Button>(R.id.btn_choice_two)
         btn_electricity.setOnClickListener {
-
+            startActivity(Intent(this,SecondActivity_3C::class.java))
         }
 
         val btn_food = findViewById<Button>(R.id.btn_choice_three)
