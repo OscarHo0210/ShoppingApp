@@ -24,5 +24,10 @@ class SecondActivity_3C : AppCompatActivity() {
         button3.setOnClickListener {
             startActivity(Intent(this,ThirdActivity_3C_three::class.java))
         }
+
+        val button4 = findViewById<Button>(R.id.button4)
+        button4.setOnClickListener {
+            startActivity(Intent(this,ThirdActivity_3C_four::class.java))
+        }
     }
 }
