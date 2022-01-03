@@ -20,6 +20,7 @@ class SignUpActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
 
+        supportActionBar?.hide()
         mAuth = FirebaseAuth.getInstance()
 
         edtName = findViewById(R.id.edt_name)
@@ -42,7 +43,7 @@ class SignUpActivity : AppCompatActivity() {
                     val intent = Intent(this, MainActivity::class.java)
                     startActivity(intent)
                 } else {
-                    Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "密碼請大於6碼", Toast.LENGTH_SHORT).show()
                 }
             }
     }

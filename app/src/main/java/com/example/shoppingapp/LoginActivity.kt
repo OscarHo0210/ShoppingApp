@@ -20,6 +20,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+        supportActionBar?.hide()
         mAuth = FirebaseAuth.getInstance()
 
         edtEmail = findViewById(R.id.edt_email)
