@@ -50,7 +50,7 @@ class LoginActivity : AppCompatActivity() {
                     val intent = Intent(this, MainActivity::class.java)
                     startActivity(intent)
                 } else {
-                    Toast.makeText(this, "使用者不存在", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "使用者不存在或密碼錯誤", Toast.LENGTH_SHORT).show()
                 }
             }
     }
