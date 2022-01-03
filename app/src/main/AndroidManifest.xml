@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShoppingApp">
         <activity
+            android:name=".FourthActivity_3C_rd_four"
+            android:exported="false" />
+        <activity
+            android:name=".FourthActivity_3C_rd_three"
+            android:exported="false" />
+        <activity
+            android:name=".FourthActivity_3C_rd_two"
+            android:exported="false" />
+        <activity
+            android:name=".FourthActivity_3C_rd_one"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdActivity_3C_three"
+            android:exported="false" />
+        <activity
             android:name=".FourthActivity_3C_sd_four"
             android:exported="false" />
         <activity
