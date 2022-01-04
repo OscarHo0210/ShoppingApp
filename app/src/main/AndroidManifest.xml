@@ -16,6 +16,12 @@
             android:name=".SecondActivity_3C"
             android:exported="true" />
         <activity
+            android:name=".SignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".chat.ChatApp"
+            android:exported="true" />
+        <activity
             android:name=".Stationery4"
             android:exported="true" />
         <activity
