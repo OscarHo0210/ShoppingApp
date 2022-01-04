@@ -12,6 +12,7 @@
         <activity
             android:name=".LoginActivity"
             android:exported="true" />
+
         <activity
             android:name=".SecondActivity_3C"
             android:exported="true" />
