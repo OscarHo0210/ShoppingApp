@@ -10,10 +10,33 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="416dp"
         android:layout_height="738dp"
-        android:layout_marginTop="4dp"
         android:background="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btn_homeLogin"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="58dp"
+            android:layout_marginBottom="8dp"
+            android:text="登入"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/pic_login"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btn_homeSignUp"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="26dp"
+            android:text="註冊"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/pic_cartoon_people"
+            app:layout_constraintStart_toEndOf="@+id/btn_homeLogin"
+            app:layout_constraintTop_toBottomOf="@+id/btn_choice_three" />
 
         <ImageView
             android:id="@+id/imageView18"
@@ -120,17 +143,17 @@
             android:layout_width="70dp"
             android:layout_height="61dp"
             android:layout_marginStart="12dp"
-            android:layout_marginTop="96dp"
+            android:layout_marginTop="12dp"
             android:text="線上客服"
             android:textSize="14sp"
             app:layout_constraintStart_toEndOf="@+id/pic_login"
-            app:layout_constraintTop_toBottomOf="@+id/btn_choice_three" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_homeSignUp" />
 
         <ImageView
             android:id="@+id/pic_cartoon_people"
             android:layout_width="160dp"
             android:layout_height="170dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="12dp"
             android:layout_marginEnd="24dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_choice_four"
