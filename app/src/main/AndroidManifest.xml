@@ -10,6 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light">
         <activity
+            android:name=".Food_Japan_Snack"
+            android:exported="false" />
+        <activity
+            android:name=".Food_Korea"
+            android:exported="false" />
+        <activity
+            android:name=".Food_Japan_Chocolate"
+            android:exported="false" />
+        <activity
+            android:name=".Food_Japan"
+            android:exported="false" />
+        <activity
+            android:name=".Food_America_Godiva"
+            android:exported="false" />
+        <activity
+            android:name=".Food_America"
+            android:exported="false" />
+        <activity
+            android:name=".Food_Second"
+            android:exported="false" />
+        <activity
+            android:name=".electicity.Food_Second"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="true" />
         <activity

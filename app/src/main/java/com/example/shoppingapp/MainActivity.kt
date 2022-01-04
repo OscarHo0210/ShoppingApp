@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         val btn_food = findViewById<Button>(R.id.btn_choice_three)
         btn_food.setOnClickListener {
-
+            startActivity(Intent(this,Food_Second::class.java))
         }
 
         val btn_cloth = findViewById<Button>(R.id.btn_choice_four)
