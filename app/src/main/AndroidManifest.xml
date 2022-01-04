@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light">
         <activity
+            android:name=".FourthActivity_3C_4th_one"
+            android:exported="true" />
+        <activity
+            android:name=".ThirdActivity_3C_one"
+            android:exported="true" />
+        <activity
             android:name=".Food_Japan_Snack"
             android:exported="false" />
         <activity
