@@ -30,14 +30,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this,SecondActivity_Cloth::class.java))
         }
 
-        val btn_homeLogin = findViewById<Button>(R.id.btn_homeLogin)
-        btn_homeLogin.setOnClickListener{
+        val btn_Login = findViewById<Button>(R.id.btn_login)
+        btn_Login.setOnClickListener{
             startActivity(Intent(this,LoginActivity::class.java))
-        }
-
-        val btn_homeSignUp = findViewById<Button>(R.id.btn_homeSignUp)
-        btn_homeSignUp.setOnClickListener {
-            startActivity(Intent(this,SignUpActivity::class.java))
         }
     }
 }

@@ -14,30 +14,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/btn_homeLogin"
-            android:layout_width="70dp"
-            android:layout_height="60dp"
-            android:layout_marginStart="58dp"
-            android:layout_marginBottom="8dp"
-            android:text="登入"
-            android:textSize="14sp"
-            app:layout_constraintBottom_toTopOf="@+id/pic_login"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <Button
-            android:id="@+id/btn_homeSignUp"
-            android:layout_width="70dp"
-            android:layout_height="60dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="26dp"
-            android:text="註冊"
-            android:textSize="14sp"
-            app:layout_constraintEnd_toStartOf="@+id/pic_cartoon_people"
-            app:layout_constraintStart_toEndOf="@+id/btn_homeLogin"
-            app:layout_constraintTop_toBottomOf="@+id/btn_choice_three" />
-
         <ImageView
             android:id="@+id/imageView18"
             android:layout_width="42dp"
@@ -142,12 +118,12 @@
             android:id="@+id/btn_login"
             android:layout_width="70dp"
             android:layout_height="61dp"
-            android:layout_marginStart="12dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="77dp"
             android:text="線上客服"
             android:textSize="14sp"
             app:layout_constraintStart_toEndOf="@+id/pic_login"
-            app:layout_constraintTop_toBottomOf="@+id/btn_homeSignUp" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_choice_three" />
 
         <ImageView
             android:id="@+id/pic_cartoon_people"
