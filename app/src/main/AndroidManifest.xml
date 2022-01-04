@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light">
         <activity
+            android:name=".chat.ChatActivity"
+            android:exported="true" />
+        <activity
             android:name=".FourthActivity_3C_one"
             android:exported="true" />
         <activity
@@ -51,7 +54,6 @@
         <activity
             android:name=".LoginActivity"
             android:exported="true" />
-
         <activity
             android:name=".SecondActivity_3C"
             android:exported="true" />
