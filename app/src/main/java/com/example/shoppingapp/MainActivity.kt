@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         val btn_grocery = findViewById<Button>(R.id.btn_grocery)
         btn_grocery.setOnClickListener{
-
+            startActivity(Intent(this,SecondDaily::class.java))
         }
 
         val btn_electricity = findViewById<Button>(R.id.btn_choice_two)
@@ -30,9 +30,14 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this,SecondActivity_Cloth::class.java))
         }
 
-        val btn_Login = findViewById<Button>(R.id.btn_login)
-        btn_Login.setOnClickListener{
+        val btn_homeLogin = findViewById<Button>(R.id.btn_homeLogin)
+        btn_homeLogin.setOnClickListener{
             startActivity(Intent(this,LoginActivity::class.java))
+        }
+
+        val btn_homeSignUp = findViewById<Button>(R.id.btn_homeSignUp)
+        btn_homeSignUp.setOnClickListener {
+            startActivity(Intent(this,SignUpActivity::class.java))
         }
     }
 }
