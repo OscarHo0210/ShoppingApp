@@ -10,7 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light">
         <activity
-            android:name=".FourthActivity_3C_4th_one"
+            android:name=".FourthActivity_3C_one"
+            android:exported="true" />
+        <activity
+            android:name=".FourthActivity_3C_two"
+            android:exported="true" />
+        <activity
+            android:name=".FourthActivity_3C_three"
+            android:exported="true" />
+        <activity
+            android:name=".FourthActivity_3C_four"
             android:exported="true" />
         <activity
             android:name=".ThirdActivity_3C_one"
