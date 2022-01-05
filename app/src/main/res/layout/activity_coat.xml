@@ -28,12 +28,12 @@
             android:id="@+id/btn_choice_two6"
             android:layout_width="169dp"
             android:layout_height="62dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="24dp"
             android:background="#ECECEC"
+            android:gravity="center"
             android:text="韓國Slowand－柔軟單領軟綿外套"
             android:textSize="12sp"
-            android:gravity="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
@@ -41,12 +41,12 @@
             android:id="@+id/btn_choice_two5"
             android:layout_width="169dp"
             android:layout_height="62dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
             android:background="#ECECEC"
+            android:gravity="center"
             android:text="1韓國Slowand made－冬季細緻大衣外套"
             android:textSize="12sp"
-            android:gravity="center"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
@@ -54,12 +54,12 @@
             android:id="@+id/btn_choice_two3"
             android:layout_width="177dp"
             android:layout_height="60dp"
-            android:layout_marginTop="36dp"
-            android:layout_marginEnd="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
             android:background="#ECECEC"
+            android:gravity="center"
             android:text="韓國LINENNE－cozy string jumper"
             android:textSize="12sp"
-            android:gravity="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
@@ -68,11 +68,11 @@
             android:layout_width="169dp"
             android:layout_height="62dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="4dp"
             android:background="#ECECEC"
+            android:gravity="center"
             android:text="韓國Slowand－韓製科技棉羽絨外套"
             android:textSize="12sp"
-            android:gravity="center"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
@@ -81,7 +81,7 @@
             android:layout_width="173dp"
             android:layout_height="167dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="72dp"
+            android:layout_marginTop="8dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/g" />
@@ -90,8 +90,8 @@
             android:id="@+id/imageView4"
             android:layout_width="201dp"
             android:layout_height="164dp"
-            android:layout_marginTop="72dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/j" />
@@ -100,8 +100,8 @@
             android:id="@+id/imageView5"
             android:layout_width="161dp"
             android:layout_height="163dp"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_choice_two2"
             app:srcCompat="@drawable/r" />
@@ -110,8 +110,8 @@
             android:id="@+id/imageView6"
             android:layout_width="167dp"
             android:layout_height="166dp"
-            android:layout_marginTop="52dp"
-            android:layout_marginEnd="28dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="24dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_choice_two3"
             app:srcCompat="@drawable/d" />

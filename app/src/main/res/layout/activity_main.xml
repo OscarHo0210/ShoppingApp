@@ -18,8 +18,8 @@
             android:id="@+id/imageView18"
             android:layout_width="42dp"
             android:layout_height="52dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="372dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="300dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/s__3817879" />
@@ -28,8 +28,8 @@
             android:id="@+id/imageView17"
             android:layout_width="42dp"
             android:layout_height="52dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="232dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="176dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/s__3817878" />
@@ -38,8 +38,8 @@
             android:id="@+id/imageView16"
             android:layout_width="42dp"
             android:layout_height="52dp"
-            android:layout_marginTop="372dp"
-            android:layout_marginEnd="12dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="24dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/s__3817880" />
@@ -48,7 +48,7 @@
             android:id="@+id/btn_choice_three"
             android:layout_width="117dp"
             android:layout_height="116dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="14dp"
             android:background="#AAAAAA"
             android:gravity="center"
             android:shape="oval"
@@ -56,80 +56,71 @@
             android:textColor="#000000"
             android:textSize="16sp"
             app:layout_constraintEnd_toStartOf="@+id/btn_choice_four"
-            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintHorizontal_bias="0.872"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_grocery" />
 
         <Button
             android:id="@+id/btn_choice_four"
-            android:layout_width="117dp"
-            android:layout_height="116dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="68dp"
+            android:layout_width="126dp"
+            android:layout_height="127dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginEnd="71dp"
+            android:backgroundTint="#8FBC8F"
             android:gravity="center"
             android:text="品牌衣物"
+
             android:textColor="#000000"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_choice_two"
+            app:layout_constraintTop_toTopOf="parent"
             tools:background="#8FBC8F" />
 
         <Button
             android:id="@+id/btn_choice_two"
             android:layout_width="117dp"
             android:layout_height="116dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="68dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="76dp"
             android:background="#AAAAAA"
             android:gravity="center"
             android:text="3C產品"
             android:textColor="#000000"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/btn_grocery"
             android:layout_width="117dp"
             android:layout_height="116dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="136dp"
             android:background="#8FBC8F"
             android:gravity="center"
             android:text="生活用品"
             android:textColor="#000000"
             android:textSize="16sp"
-            app:layout_constraintEnd_toStartOf="@+id/btn_choice_two"
-            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.297"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView14" />
-
-        <ImageButton
-            android:id="@+id/pic_login"
-            android:layout_width="55dp"
-            android:layout_height="58dp"
-            android:layout_marginStart="64dp"
-            android:layout_marginTop="80dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_choice_three"
-            app:srcCompat="@drawable/user_icon"
-            tools:ignore="SpeakableTextPresentCheck" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/btn_login"
-            android:layout_width="70dp"
-            android:layout_height="61dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="77dp"
+            android:layout_width="93dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="32dp"
             android:text="線上客服"
             android:textSize="14sp"
-            app:layout_constraintStart_toEndOf="@+id/pic_login"
+            app:layout_constraintEnd_toStartOf="@+id/pic_cartoon_people"
             app:layout_constraintTop_toBottomOf="@+id/btn_choice_three" />
 
         <ImageView
             android:id="@+id/pic_cartoon_people"
-            android:layout_width="160dp"
-            android:layout_height="170dp"
-            android:layout_marginTop="12dp"
+            android:layout_width="151dp"
+            android:layout_height="161dp"
+            android:layout_marginTop="4dp"
             android:layout_marginEnd="24dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_choice_four"
@@ -137,20 +128,20 @@
 
         <ImageView
             android:id="@+id/pic_cartoon_lines"
-            android:layout_width="99dp"
-            android:layout_height="57dp"
-            android:layout_marginStart="48dp"
-            android:layout_marginTop="16dp"
+            android:layout_width="57dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="4dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/pic" />
 
         <ImageView
             android:id="@+id/imageView11"
-            android:layout_width="399dp"
-            android:layout_height="210dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="576dp"
+            android:layout_width="329dp"
+            android:layout_height="166dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="496dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/s__3817849" />
@@ -159,9 +150,9 @@
             android:id="@+id/imageView12"
             android:layout_width="360dp"
             android:layout_height="78dp"
-            android:layout_marginTop="64dp"
+            android:layout_marginTop="24dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.686"
+            app:layout_constraintHorizontal_bias="0.571"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/s" />
@@ -170,8 +161,9 @@
             android:id="@+id/imageView14"
             android:layout_width="257dp"
             android:layout_height="89dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="56dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/s__3817852" />
@@ -180,11 +172,22 @@
             android:id="@+id/imageView15"
             android:layout_width="42dp"
             android:layout_height="52dp"
-            android:layout_marginTop="240dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="24dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/s__3817876" />
+
+        <ImageView
+            android:id="@+id/imageView83"
+            android:layout_width="62dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintEnd_toStartOf="@+id/btn_login"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_choice_three"
+            app:srcCompat="@drawable/user_icon" />
 
         android:background="#8FBC8F"
 

@@ -80,19 +80,19 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="161dp"
-            android:layout_height="158dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="44dp"
+            android:layout_width="145dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/one" />
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="167dp"
-            android:layout_height="157dp"
-            android:layout_marginTop="44dp"
+            android:layout_width="153dp"
+            android:layout_height="146dp"
+            android:layout_marginTop="4dp"
             android:layout_marginEnd="44dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -100,28 +100,28 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="173dp"
-            android:layout_height="167dp"
+            android:layout_width="166dp"
+            android:layout_height="125dp"
             android:layout_marginStart="24dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="8dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_choice_two"
             app:srcCompat="@drawable/three" />
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="201dp"
-            android:layout_height="164dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="16dp"
+            android:layout_width="165dp"
+            android:layout_height="122dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="28dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_choice_two"
             app:srcCompat="@drawable/four" />
 
         <ImageView
             android:id="@+id/imageView5"
-            android:layout_width="161dp"
-            android:layout_height="163dp"
+            android:layout_width="158dp"
+            android:layout_height="129dp"
             android:layout_marginStart="36dp"
             android:layout_marginTop="4dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -130,10 +130,10 @@
 
         <ImageView
             android:id="@+id/imageView6"
-            android:layout_width="167dp"
-            android:layout_height="166dp"
+            android:layout_width="146dp"
+            android:layout_height="130dp"
             android:layout_marginTop="4dp"
-            android:layout_marginEnd="28dp"
+            android:layout_marginEnd="32dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_choice_two3"
             app:srcCompat="@drawable/six" />

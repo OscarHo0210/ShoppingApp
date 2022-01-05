@@ -11,7 +11,7 @@
         android:layout_width="175dp"
         android:layout_height="175dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/phonecase_two" />
@@ -31,8 +31,8 @@
         android:id="@+id/imageView8"
         android:layout_width="175dp"
         android:layout_height="175dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/phonecase_three" />

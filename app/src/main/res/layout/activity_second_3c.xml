@@ -6,17 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".SecondActivity_3C">
 
+    <ImageView
+        android:id="@+id/back11"
+        android:layout_width="83dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:srcCompat="@drawable/s__3817886" />
+
     <TextView
         android:id="@+id/tv_style_3c"
         android:layout_width="354dp"
         android:layout_height="53dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="28dp"
         android:text="3C產品選擇"
         android:textAlignment="center"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,7 +36,7 @@
         android:layout_width="110dp"
         android:layout_height="67dp"
         android:layout_marginStart="68dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="28dp"
         android:text="手機殼"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,7 +80,7 @@
         android:id="@+id/imageView"
         android:layout_width="95dp"
         android:layout_height="105dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="68dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_style_3c"
