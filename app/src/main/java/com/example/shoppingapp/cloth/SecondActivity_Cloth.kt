@@ -3,6 +3,7 @@ package com.example.shoppingapp
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
 class SecondActivity_Cloth : AppCompatActivity() {
@@ -28,6 +29,11 @@ class SecondActivity_Cloth : AppCompatActivity() {
         val btn_pants = findViewById<Button>(R.id.btn_pants)
         btn_pants.setOnClickListener {
             startActivity(Intent(this,pants::class.java))
+        }
+
+        val back = findViewById<ImageView>(R.id.back)
+        back.setOnClickListener {
+            startActivity(Intent(this,MainActivity::class.java))
         }
     }
 }

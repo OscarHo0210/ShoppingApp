@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 
 class ShortSleeve : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,6 +29,11 @@ class ShortSleeve : AppCompatActivity() {
         val btn_choice_two4 = findViewById<Button>(R.id.btn_choice_two4)
         btn_choice_two4.setOnClickListener {
             startActivity(Intent(this,ShortSleeve2::class.java))
+        }
+
+        val back9 = findViewById<ImageView>(R.id.back9)
+        back9.setOnClickListener {
+            startActivity(Intent(this,SecondActivity_Cloth::class.java))
         }
     }
 }

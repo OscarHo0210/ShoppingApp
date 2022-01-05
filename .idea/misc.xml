@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1625" />
         <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1625" />
+        <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/drawable/message_background.xml" value="0.16979166666666667" />
         <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/drawable/message_box_background.xml" value="0.16979166666666667" />
         <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/layout/activity_chat.xml" value="0.15364583333333334" />
         <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/layout/activity_chat_app.xml" value="0.18072916666666666" />
@@ -13,8 +14,14 @@
         <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/layout/activity_main.xml" value="0.25462962962962965" />
         <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/layout/activity_second_cloth.xml" value="0.25462962962962965" />
+        <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/layout/activity_second_daily.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/layout/activity_short_sleeve1.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/layout/activity_short_sleeve2.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/layout/activity_shortsleeve.xml" value="0.2791666666666667" />
         <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/layout/activity_sign_up.xml" value="0.2638888888888889" />
         <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/layout/activity_third_cloth_one.xml" value="0.25462962962962965" />
+        <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/layout/receive.xml" value="0.25" />
+        <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/layout/sent.xml" value="0.25" />
         <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/layout/user_layout.xml" value="0.2791666666666667" />
         <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/menu/menu.xml" value="0.2791666666666667" />
         <entry key="..\:/Users/Oscar Ho/AndroidStudioProjects/ShoppingApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1625" />
